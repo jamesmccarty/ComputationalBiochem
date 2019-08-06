@@ -12,5 +12,7 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - nglview=1.0.b2
   - mdanalysis=0.19.2
+  - pip
+  - pip:
+    - nglview=1.0.b2
