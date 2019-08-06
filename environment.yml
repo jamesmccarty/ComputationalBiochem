@@ -13,6 +13,7 @@ dependencies:
   - bokeh
   - dask
   - mdanalysis=0.19.2
+  - ipywidgets
   - pip
   - pip:
     - nglview==1.0.b2
