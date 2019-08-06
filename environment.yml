@@ -9,6 +9,8 @@ dependencies:
 - notebook
 - ipykernel
 - nglview=2.6.1
+- mdanalysis
+- matplotlib
 - pip:
     - pytraj
     - ipython_blocking
