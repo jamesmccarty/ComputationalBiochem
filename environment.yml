@@ -1,21 +1,14 @@
-name: environment
 channels:
-  - conda-forge
+- conda-forge
 dependencies:
-  - python=2.7.16
-  - numpy=1.16.4
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - mdanalysis=0.19.2
-  - ipywidgets
-  - widgetsnbextension
-  - pip
-  - pip:
-    - nglview==1.0.b2
-    - jupyter_contrib_nbextensions
+- jupyterlab=1.0.4
+- python=3.7
+- nodejs
+- ipython
+- ipywidgets=7.5.1
+- notebook
+- ipykernel
+- nglview=2.6.1
+- pip:
+    - pytraj
+    - ipython_blocking
