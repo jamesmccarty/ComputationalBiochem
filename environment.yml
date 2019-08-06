@@ -1,0 +1,16 @@
+name: environment
+channels:
+  - conda-forge
+dependencies:
+  - python2.7
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - nglview1.0
+  - mdanalysis
