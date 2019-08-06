@@ -2,8 +2,8 @@ name: environment
 channels:
   - conda-forge
 dependencies:
-  - python
-  - numpy
+  - python=2.7.16
+  - numpy=1.16.4
   - psutil
   - toolz
   - matplotlib
@@ -12,5 +12,5 @@ dependencies:
   - partd
   - bokeh
   - dask
-  - nglview
-  - mdanalysis
+  - nglview=1.0.b2
+  - mdanalysis=0.19.2
